@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 project(temperatur-sammler)
 set(EXECUTABLE_NAME "temp-sam")
-
+set(CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake/")
+include(AddGitSubmodule)
+add_git_submodule(external/libmodbus)
+add_subdirectory(configured)
+add_subdirectory(external)
 add_subdirectory(app)
