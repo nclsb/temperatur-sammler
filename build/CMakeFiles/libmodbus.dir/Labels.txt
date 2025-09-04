@@ -1,0 +1,13 @@
+# Target labels
+ libmodbus
+# Source files and their labels
+/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/libmodbus
+/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/libmodbus.rule
+/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/libmodbus-complete.rule
+/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-build.rule
+/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-configure.rule
+/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-download.rule
+/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-install.rule
+/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-mkdir.rule
+/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-patch.rule
+/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-update.rule

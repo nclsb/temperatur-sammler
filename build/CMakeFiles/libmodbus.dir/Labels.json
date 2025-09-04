@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/libmodbus"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/libmodbus.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/libmodbus-complete.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-build.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-configure.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-download.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-install.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-mkdir.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-patch.rule"
+		},
+		{
+			"file" : "/home/nicolas/Git/temperatur-sammler/build/libmodbus-prefix/src/libmodbus-stamp/libmodbus-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libmodbus"
+		],
+		"name" : "libmodbus"
+	}
+}

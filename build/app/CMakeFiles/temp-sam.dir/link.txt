@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/temp-sam.dir/main.cc.o" -o temp-sam  -lmodbus 

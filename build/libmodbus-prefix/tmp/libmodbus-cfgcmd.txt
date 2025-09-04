@@ -1,0 +1,1 @@
+cmd='cd;<SOURCE_DIR>;&&;<SOURCE_DIR>/autogen.sh;&&;<SOURCE_DIR>/configure;--prefix=<INSTALL_DIR>'
