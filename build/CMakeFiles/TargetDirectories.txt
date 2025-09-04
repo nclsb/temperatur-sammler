@@ -1,6 +1,0 @@
-/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/libmodbus.dir
-/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/edit_cache.dir
-/home/nicolas/Git/temperatur-sammler/build/CMakeFiles/rebuild_cache.dir
-/home/nicolas/Git/temperatur-sammler/build/app/CMakeFiles/temp-sam.dir
-/home/nicolas/Git/temperatur-sammler/build/app/CMakeFiles/edit_cache.dir
-/home/nicolas/Git/temperatur-sammler/build/app/CMakeFiles/rebuild_cache.dir
