@@ -1,0 +1,5 @@
+#define HAVE_NETINET_IN_H 1
+
+#define HAVE_NETINET_IP_H 1
+
+#define HAVE_NETINET_TCP_H 1
