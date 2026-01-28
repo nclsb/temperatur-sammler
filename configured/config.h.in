@@ -3,3 +3,6 @@
 #define HAVE_NETINET_IP_H 1
 
 #define HAVE_NETINET_TCP_H 1
+
+#include <netinet/in.h>
+#include <netinet/ip.h>
