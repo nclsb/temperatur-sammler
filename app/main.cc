@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <modbus.h>
+#include <spdlog/spdlog.h>
+#include <spdlog/sinks/stdout_color_sinks.h>
+#include <spdlog/sinks/syslog_sink.h>
 
 int main()
 {
@@ -8,13 +11,24 @@ int main()
     int sock, len, ret;
     uint8_t *req;
 
+    spdlog::info("Mit spdlog wird geloggt!");
+
+    auto console = spdlog::stdout_color_mt("console");
+    auto err_logger = spdlog::stderr_color_mt("stderr");
+    spdlog::get("console")->info("console logger retrieved from global registry via get()");
+    spdlog::get("stderr")->info("stderr logger retrieved from global registry via get()");
+    
+    std::string ident = "spdlog-example";
+    auto syslog_logger = spdlog::syslog_logger_mt("syslog", ident, LOG_PID);
+    syslog_logger->warn("This is warning that will end up in syslog.");
+
     ctx = modbus_new_tcp("127.0.0.1", 1502);
     if (ctx == NULL)
     {
         fprintf(stderr, "Unable to allocate libmodbus context\n");
         return -1;
     }
-
+    
     mb_mapping = modbus_mapping_new(0, 0, 1, 0);
     if(mb_mapping == NULL)
     {

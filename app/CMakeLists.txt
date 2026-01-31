@@ -11,4 +11,5 @@ target_include_directories(${EXECUTABLE_NAME} PUBLIC
     ${EXE_INCLUDES})
 
 target_link_libraries(${EXECUTABLE_NAME} PUBLIC
-    modbus)
+    modbus
+    spdlog::spdlog)
